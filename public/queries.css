@@ -1,0 +1,14 @@
+@media (max-width: 400px) {
+    html {
+      font-size: 10px;
+    }
+    .navPages{
+      display: none;
+    }
+    .smartphone{
+        display: block;
+    }
+    #choosecenter{
+      flex-direction: column;
+    }
+  }

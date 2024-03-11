@@ -1,0 +1,58 @@
+@keyframes main_logo {
+    0% {margin-right:-60%}
+    100% {margin-right:0}
+  }
+  @keyframes main_banner {
+    0% {left:-57%}
+    100% {left:0}
+  }
+  @keyframes loading {
+    30% {transform: scaleX(-1);}
+    60% {transform: scaleX(1);}
+  }
+  html{
+    font-size: 16px;
+  }
+  :root {
+    --grey:#939498;
+    --lightblue: #E7F0F7;
+    --normalblue: #00B5C8;
+    --heavyblue: #00454D;
+    --lightyellow:#FFF780;
+    --heavyyellow:#C99203;
+  } 
+  body {
+    direction: rtl;
+    width:100vw;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  } 
+  .navPages {
+    font-size: 1rem;
+    transition: color 0.5s;;
+    text-decoration: none;
+    height:100%;
+    display: flex;
+    align-items: center;
+  }
+  .navPages:hover{
+    color:var(--heavyblue); 
+  }
+  .blog_p{
+    color:var(--heavyblue);
+    font-size:var(--fontSize1);
+  }
+  .blog_img{
+    width: 50%;
+    margin-right: 25%;
+  } 
+  .doctorName:hover {
+    background-color: var(--lightyellow);
+  }
+  .smartphone{
+    display: none;
+  }
+  h2{
+    color:#00B5C8
+  }
