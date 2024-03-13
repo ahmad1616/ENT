@@ -2,7 +2,9 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/": "pages/index.js",
   "/book": "pages/book.js",
-  "/book/choosecenter": "pages/book/choosecenter.js",
-  "/": "pages/index.js"
+  "/blog": "pages/blog.js",
+  "/api/blogs": "pages/api/blogs.js",
+  "/aboutus": "pages/aboutus.js"
 }
