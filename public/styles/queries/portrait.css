@@ -1,0 +1,95 @@
+@media (max-width: 400px) {
+  @keyframes descriptions {
+    0% {
+      right: 0vw
+    }
+  
+    10% {
+      right: 140vw;
+    }
+  
+    33% {
+      right: 140vw;
+    }
+  
+    43% {
+      right: 280vw;
+    }
+  
+    66% {
+      right: 280vw;
+    }
+  
+    76% {
+      right: 0vw;
+    }
+  
+    100% {
+      right: 0vw;
+    }
+  }
+    html {
+      font-size: 8px;
+    }
+    .navPages{
+      display: none;
+    }
+    .smartphone{
+        display: block;
+    }
+    #choosecenter{
+      flex-direction: column;
+    }
+    #bookFlex{
+      flex-direction: column;
+    }
+    #centerMap{
+      width: 80vw;
+      height: 80vw;
+    }
+    #whyChooseUsSection {
+      margin-top: 1rem;
+      color: var(--grey);
+      background-color: var(--lightblue);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+    .whyChooseUsChildren{
+      width: 100%;
+    }
+    #bookSection {
+      background-color: var(--normalblue);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center
+    }
+    .bookChildren{
+      width: 100%;
+      color: white;
+    }
+    #mainSection {
+      padding: 10vh 0;
+      background: linear-gradient(95deg, var(--normalblue) 60%, var(--heavyblue) 60%);
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+    .mainSectionChildren{
+      width: 70%;
+    }
+    .mainParagraphs {
+      color: white;
+      width: 70vw;
+      font-weight: bold;
+    }
+    #mainhr{
+      width:70vw;
+    }
+    #mainParagraphsContainer{
+      width: 350vw;
+    }
+  }
